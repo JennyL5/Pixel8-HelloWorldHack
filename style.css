@@ -1,0 +1,65 @@
+body{
+    background-color: lightcyan;
+    font-family: sans-serif;
+}
+ 
+
+ .Title{
+    width: 15vw;
+    height: 15vh;
+    position: absolute;
+    margin-left: 81vw;
+
+} 
+
+.Timeline{
+    width: 75vw;
+    height: 15vh;
+    border: 1px solid red;
+    margin-left: 1vw;
+}
+
+
+img{
+    max-width:100%;
+    max-height: 100%; 
+}
+
+.Live_Photo{
+    width: 75vw;
+    height: 75vh;
+    position: absolute;
+    border: 1px solid blue;
+    margin-left: 1vw;
+
+}
+
+.Colours{ 
+    font-family: sans-serif;
+    text-align: center;
+    font-style: bold;
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    border: 1px solid green;
+    margin-left: 78vw;
+}
+
+.slidecontainer {
+    width: 100%;
+  }
+
+
+.Download{
+    width: 20vw;
+    height: 8vh;
+    position: absolute;
+    margin-left: 78vw;
+    border: 1px solid black;
+} 
+
+/* 
+.Footer{
+    margin-left: 20px;
+    bottom: auto;
+} */

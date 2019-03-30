@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <!-- import css -->
-    <style = 'style.css'></style>
-<body>
-    <div class = 'Title'>
-            <h1>Pixel8</h1>
-            <!-- import logo -->
-            <img src="assets/Pixel8-logo-vertical.svg" alt="Pixel8_logo">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
+<body>
+        
+    <script src="index.js"></script>
+
+    <div class = 'Title' id=Title>
+        <!-- import logo -->
+        <img src="C:\Users\Jenny\Documents\Pixel8\assets\Pixel8-logo-horizontal.svg" alt="Pixel8_logo" width=80% height = 80%>
     </div>
 
     <!-- Import javascript for Timeline -->
@@ -17,28 +19,29 @@
 
     <!-- import javascript for Live_photo -->
     <div class = "Live_Photo">
-
+        <img src="C:\Users\Jenny\Documents\Pixel8\assets\test.jpg" alt="test" >
     </div>
 
-
+    <aside>
     <!-- import javascript for colour spectrum -->
     <div class = 'Colours'>
+        <p>Change Colour</p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        <!-- <input type='button' class="button" value ='Change Colour'/> -->
 
     </div>
 
     <!-- Download image -->
-    <div class =  'Download'>
-        <button type="button"
-        onclick="document.getElementById('Download').innerHTML = Date()">
-        Download</button>
-            
-        <p id="Download"></p>
+    <!-- <div class =  'Download'>
+        <button onclick="Download()">Download image</button>   
+    </div> -->
+    </aside>
 
-    </div>
-
-
-    <script>
-        
-    </script>
 </body>
+
+
+<!-- Footer
+<footer class>
+        <p>Powered by <a href="https://www.Helloworldhack.com" title="HelloWorldHack" target="_blank">HelloWorldHack</a></p>
+</footer> -->
 </html>
