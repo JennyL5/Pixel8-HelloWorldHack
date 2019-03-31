@@ -21,6 +21,7 @@ as a full 72 hours (90fps) timelapse.
 <img src="https://i.imgur.com/slaE2QJ.png" alt="Time Lapse" width = "500"/>
 
 <h4>Improvements</h4>
-This is an ongoing project. We are wanting to add new features and maintain this website. We would like to incorpoate a 
+This is an ongoing project. We are wanting to add new features and maintain this website. We would like to incorporate a 
 timeline to give the option to go back and view the timelapse. We may incorporate a colour wheel to 
-increase user functionality. 
+increase user functionality. We would also like a button to allow the users to download a snapshot of the image at that specific time. 
+In addition, we would also like to add some features for more customization.
