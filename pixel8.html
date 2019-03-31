@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <!-- import css -->
-    <style = 'style.css'></style>
-<body>
-    <div class = 'Title'>
-            <h1>Pixel8</h1>
-            <!-- import logo -->
-            <img src="assets/Pixel8-logo-vertical.svg" alt="Pixel8_logo">
+    <link rel="stylesheet" type="text/css" href="pixel8style.css">
 
+
+<body>
+
+    <div class = 'Title' id=Title>
+        <!-- import logo -->
+        <img src="C:\Users\Jenny\Documents\Pixel8\assets\Pixel8-logo-horizontal.svg" alt="Pixel8_logo" width=80% height = 80%>
     </div>
 
     <!-- Import javascript for Timeline -->
@@ -17,28 +18,43 @@
 
     <!-- import javascript for Live_photo -->
     <div class = "Live_Photo">
-
+        <img src="C:\Users\Jenny\Documents\Pixel8\assets\test.jpg" alt="test" >
     </div>
 
+    <aside>
 
-    <!-- import javascript for colour spectrum -->
     <div class = 'Colours'>
+        <h2>Change Colour</h2>
 
-    </div>
+        
+<div class="slide1container">
+    <input type="range" min="1" max="255" value="128" class="slider" id="myRange1" style= "background-image: linear-gradient(to right, white, red , black); outline: solid; outline-color: black;">
+    <p>Red value: <span id="slide1"></span></p>
+  </div>
+  <div class="slide2container">
+    <input type="range" min="1" max="255" value="128" class="slider" id="myRange2" style= "background-image: linear-gradient(to right, white, green , black);outline: solid; outline-color: black;">
+    <p>Green value: <span id="slide2"></span></p>
+  </div>
+  <div class="slide3container">
+    <input type="range" min="1" max="255" value="128" class="slider" id="myRange3" style= "background-image: linear-gradient(to right, white, blue , black);outline: solid; outline-color: black;">
+    <p>Blue value: <span id="slide3"></span></p>
+  </div>
+</div>
 
     <!-- Download image -->
-    <div class =  'Download'>
-        <button type="button"
-        onclick="document.getElementById('Download').innerHTML = Date()">
-        Download</button>
-            
-        <p id="Download"></p>
+    <!-- <div class =  'Download'>
+        <button onclick="Download()">Download image</button>   
+    </div> -->
+    </aside>
 
-    </div>
+    <script src = pixel8.js></script>
+    
 
-
-    <script>
-        
-    </script>
 </body>
+
+
+<!-- Footer
+<footer class>
+        <p>Powered by <a href="https://www.Helloworldhack.com" title="HelloWorldHack" target="_blank">HelloWorldHack</a></p>
+</footer> -->
 </html>
