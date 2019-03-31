@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <!-- import css -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="pixel8style.css">
+
 
 <body>
-        
-    <script src="index.js"></script>
 
     <div class = 'Title' id=Title>
         <!-- import logo -->
@@ -23,19 +22,33 @@
     </div>
 
     <aside>
-    <!-- import javascript for colour spectrum -->
-    <div class = 'Colours'>
-        <p>Change Colour</p>
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <!-- <input type='button' class="button" value ='Change Colour'/> -->
 
-    </div>
+    <div class = 'Colours'>
+        <h2>Change Colour</h2>
+
+        
+<div class="slide1container">
+    <input type="range" min="1" max="255" value="128" class="slider" id="myRange1" style= "background-image: linear-gradient(to right, white, red , black); outline: solid; outline-color: black;">
+    <p>Red value: <span id="slide1"></span></p>
+  </div>
+  <div class="slide2container">
+    <input type="range" min="1" max="255" value="128" class="slider" id="myRange2" style= "background-image: linear-gradient(to right, white, green , black);outline: solid; outline-color: black;">
+    <p>Green value: <span id="slide2"></span></p>
+  </div>
+  <div class="slide3container">
+    <input type="range" min="1" max="255" value="128" class="slider" id="myRange3" style= "background-image: linear-gradient(to right, white, blue , black);outline: solid; outline-color: black;">
+    <p>Blue value: <span id="slide3"></span></p>
+  </div>
+</div>
 
     <!-- Download image -->
     <!-- <div class =  'Download'>
         <button onclick="Download()">Download image</button>   
     </div> -->
     </aside>
+
+    <script src = pixel8.js></script>
+    
 
 </body>
 
